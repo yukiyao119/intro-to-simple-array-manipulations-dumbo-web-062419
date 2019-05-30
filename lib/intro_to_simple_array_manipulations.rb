@@ -18,19 +18,9 @@ def using_shift(arr)
   arr.shift()
 end 
 
-# describe "#using_shift" do 
-#   before(:each) do 
-#     @my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
-#     @im_so_over_this_city = using_shift(@my_favorite_cities)
-#   end
-#   it "takes in an argument of an array and uses the shift method to remove the first item and return it" do 
-#     expect(@im_so_over_this_city).to eq("Lagos")
-#   end
-
-#   it "decreases the length of the array by 1" do 
-#     expect(@my_favorite_cities.size).to eq(7)
-#   end
-# end
+def shift_with_args(arr)
+  arr.shift(2)
+end
 
 # describe "#shift_with_args" do 
 #   before(:each) do 
