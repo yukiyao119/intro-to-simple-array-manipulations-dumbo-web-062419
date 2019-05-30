@@ -40,7 +40,8 @@ def using_flatten(arr)
 end
 
 def using_delete(arr, str)
-  arr.delete
+  arr.delete(str)
+end
 
 
 # describe "#using_delete" do 
