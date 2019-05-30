@@ -6,9 +6,9 @@ def using_unshift(arr,str)
   arr.unshift(str)
 end
 
-
-# describe "#using_unshift" do 
-
+def using_pop (arr)
+  arr.pop()
+end
 
 # describe "#using_pop" do
 #   before(:each) do 
