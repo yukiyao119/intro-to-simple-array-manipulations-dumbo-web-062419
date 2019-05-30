@@ -22,35 +22,12 @@ def shift_with_args(arr)
   arr.shift(2)
 end
 
-# describe "#shift_with_args" do 
-#   before(:each) do 
-#     @ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
-#     @brands_removed = shift_with_args(@ice_cream_brands)
-#   end
-  
-#   it "takes in an argument of an array and uses the shift method with an argument of 2 to remove and return the first 2 items from the array" do 
-#     expect(@brands_removed).to eq(["Blue Bell Creameries", "Ben & Jerry's"])
-#   end
 
-#   it "decreases the length of the array by 2" do 
-#     expect(@brands_removed.size).to eq(2)
-#   end
-# end
+def using_concat(arr1, arr2)
+  arr1.concat(arr2)
+end
 
-# describe "#using_concat" do 
-#   before(:each) do 
-#     @my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
-#     more_favs = ["mario kart", "flatiron school"]
-#     @all_my_favs = using_concat(@my_favorite_things, more_favs)
-#   end
-#   it "takes in two arguments of two different arrays and uses the concat method to add the contents of the second array to the first" do 
-#     expect(@all_my_favs).to eq(["raindrops on roses", "whiskers on kittens", "mario kart", "flatiron school"])
-#   end
 
-#   it "increases the length of the first array" do 
-#     expect(@my_favorite_things.length).to be > 2
-#   end
-# end
 
 # describe "#using_insert" do 
 #   before(:each) do 
